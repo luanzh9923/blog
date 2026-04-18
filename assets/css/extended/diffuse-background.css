@@ -1,0 +1,77 @@
+/* 动态弥散渐变背景 */
+body {
+    background-color: rgb(246, 242, 236) !important;
+    background-image: 
+        /* 主色 (Core) - 占据 50% 以上面积 */
+        radial-gradient(at 30% 30%, rgba(128, 175, 108, 0.55) 0px, rgba(128, 175, 108, 0) 70%),
+        radial-gradient(at 70% 70%, rgba(128, 175, 108, 0.55) 0px, rgba(128, 175, 108, 0) 70%),
+        radial-gradient(at 10% 90%, rgba(128, 175, 108, 0.45) 0px, rgba(128, 175, 108, 0) 60%),
+        /* 高亮位 (Highlight) - 营造阳光斜射的通透感 (右上角) */
+        radial-gradient(at 80% 10%, rgba(205, 215, 130, 0.65) 0px, rgba(205, 215, 130, 0) 50%),
+        radial-gradient(at 90% 50%, rgba(205, 215, 130, 0.45) 0px, rgba(205, 215, 130, 0) 50%),
+        /* 深影位 (Shadow) - 增加画面厚度，防止发“飘” (左下角和底部) */
+        radial-gradient(at 20% 80%, rgba(85, 120, 70, 0.55) 0px, rgba(85, 120, 70, 0) 60%),
+        radial-gradient(at 50% 100%, rgba(85, 120, 70, 0.45) 0px, rgba(85, 120, 70, 0) 50%) !important;
+    background-size: 200% 200% !important;
+    animation: gradientMove 20s ease-in-out infinite !important;
+    background-attachment: fixed !important;
+}
+
+/* 暗色模式适配 */
+body.dark {
+    background-color: #1d1e20 !important;
+    background-image: 
+        radial-gradient(at 30% 30%, rgba(128, 175, 108, 0.15) 0px, rgba(128, 175, 108, 0) 70%),
+        radial-gradient(at 70% 70%, rgba(128, 175, 108, 0.15) 0px, rgba(128, 175, 108, 0) 70%),
+        radial-gradient(at 10% 90%, rgba(128, 175, 108, 0.12) 0px, rgba(128, 175, 108, 0) 60%),
+        radial-gradient(at 80% 10%, rgba(205, 215, 130, 0.18) 0px, rgba(205, 215, 130, 0) 50%),
+        radial-gradient(at 90% 50%, rgba(205, 215, 130, 0.12) 0px, rgba(205, 215, 130, 0) 50%),
+        radial-gradient(at 20% 80%, rgba(85, 120, 70, 0.15) 0px, rgba(85, 120, 70, 0) 60%),
+        radial-gradient(at 50% 100%, rgba(85, 120, 70, 0.12) 0px, rgba(85, 120, 70, 0) 50%) !important;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
+/* 玻璃拟态效果，让弥散背景更好地透出来 */
+.header {
+    background: rgba(246, 242, 236, 0.6) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+body.dark .header {
+    background: rgba(29, 30, 32, 0.6) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* 调整卡片样式以配合背景 */
+.post-entry {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+body.dark .post-entry {
+    background: rgba(46, 46, 51, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* 确保主内容区透明 */
+.main {
+    background: transparent !important;
+}
