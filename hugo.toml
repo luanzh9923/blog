@@ -1,0 +1,32 @@
+baseURL = 'luanzh.io' # 稍后部署到 Cloudflare Pages 时，将其更改为您的实际域名
+languageCode = 'zh-cn'
+title = 'LUAN的博客'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  description = '这是一个使用 Hugo 和 PaperMod 主题构建的博客'
+  author = 'Luanzh'
+  # 更多 PaperMod 配置可以在这里添加
+  
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 30
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 40
