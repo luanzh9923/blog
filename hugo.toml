@@ -1,4 +1,4 @@
-baseURL = 'luanzh.io' # 稍后部署到 Cloudflare Pages 时，将其更改为您的实际域名
+baseURL = 'https://luanzh.io/' # 稍后部署到 Cloudflare Pages 时，将其更改为您的实际域名
 languageCode = 'zh-cn'
 title = 'LUAN的博客'
 theme = 'PaperMod'
