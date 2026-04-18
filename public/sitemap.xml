@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>luanzh.io/</loc>
     <lastmod>2024-05-17T16:17:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>luanzh.io/posts/</loc>
     <lastmod>2024-05-17T16:17:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/my-first-post/</loc>
+    <loc>luanzh.io/posts/my-first-post/</loc>
     <lastmod>2024-05-17T16:17:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>luanzh.io/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>luanzh.io/tags/</loc>
   </url>
 </urlset>
