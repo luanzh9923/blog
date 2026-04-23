@@ -30,5 +30,10 @@ theme = 'PaperMod'
     name = "标签"
     url = "/tags/"
     weight = 40
+  [[menu.main]]
+    identifier = "macos"
+    name = "桌面"
+    url = "/macos/"
+    weight = 5
     [outputs]
   home = ["HTML", "RSS", "JSON"]

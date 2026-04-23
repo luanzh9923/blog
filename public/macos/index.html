@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>LUAN的博客</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+title: &ldquo;macOS Desktop&rdquo;
+layout: &ldquo;single&rdquo;
+type: &ldquo;macos&rdquo;">
+<meta name="author" content="Luanzh">
+<link rel="canonical" href="http://localhost:1313/macos/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8bc92327bf0916fa02195385ac5f156e73d40901695c41f05f02c733c87ab8b8.css" integrity="sha256-i8kjJ78JFvoCGVOFrF8VbnPUCQFpXEHwXwLHM8h6uLg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/macos/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+
+<style> 
+    #gradient-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+     
+    body {
+        background: transparent !important;
+    }.main {
+        background: transparent !important;
+    }
+    header, .header {
+        background: transparent !important;
+    }
+
+     
+    .post-content, 
+    .post-entry,
+    .post-header {
+        background: rgba(0, 0, 0, 0.3);border-radius: 12px;
+        padding: 20px;
+        backdrop-filter: blur(8px);
+    }
+</style><meta property="og:url" content="http://localhost:1313/macos/">
+  <meta property="og:site_name" content="LUAN的博客">
+  <meta property="og:title" content="LUAN的博客">
+  <meta property="og:description" content="title: “macOS Desktop” layout: “single” type: “macos”">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="LUAN的博客">
+  <meta name="twitter:description" content="title: “macOS Desktop” layout: “single” type: “macos”">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "",
+      "item": "http://localhost:1313/macos/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "",
+  "name": "",
+  "description": " title: \u0026ldquo;macOS Desktop\u0026rdquo; layout: \u0026ldquo;single\u0026rdquo; type: \u0026ldquo;macos\u0026rdquo;",
+  "keywords": [
+    
+  ],
+  "articleBody": " title: “macOS Desktop” layout: “single” type: “macos” ",
+  "wordCount" : "7",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Luanzh"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/macos/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "LUAN的博客",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="LUAN的博客 (Alt + H)">LUAN的博客</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/macos/" title="桌面">
+                    <span class="active">桌面</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<style>
+  .main { padding: 0!important; max-width: 100%!important; }
+  #mac-desktop {
+    width: 100%; height: calc(100vh - 60px);
+    position: relative; display: flex; justify-content: center; align-items: center;
+    overflow: hidden; user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;color: #1d1d1f;
+  }
+  #mac-desktop * { box-sizing: border-box; margin: 0; padding: 0; }
+  #mac-desktop .hidden { display: none !important; }
+  :root {
+    --system-blue: #007aff;
+    --sidebar-bg: rgba(245,245,245,0.6);
+    --content-bg: #ffffff;
+    --text-primary: #1d1d1f;
+    --text-secondary: #86868b;
+    --border-color: rgba(0,0,0,0.1);
+  }
+  #mac-desktop #intro-screen {
+    position: absolute; inset: 0; display: flex; flex-direction: column;
+    justify-content: center; align-items: center; background: rgba(0,0,0,0.2);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    z-index: 200; transition: opacity .5s;
+  }
+  #mac-desktop .user-avatar {
+    width: 100px; height: 100px; border-radius: 50%;
+    background: linear-gradient(135deg,#a18cd1,#fbc2eb);
+    margin-bottom: 15px; border: 2px solid rgba(255,255,255,.5);
+    box-shadow: 0 4px 15px rgba(0,0,0,.2);
+  }
+  #mac-desktop .user-name {
+    font-size: 24px; font-weight: 600; color: #fff;
+    margin-bottom: 20px; text-shadow: 0 2px 4px rgba(0,0,0,.3);
+  }
+  #mac-desktop #enter-btn {
+    padding: 8px 20px; font-size: 14px; border-radius: 15px;
+    background: rgba(255,255,255,.2); border: 1px solid rgba(255,255,255,.4);
+    color: #fff; cursor: pointer; transition: background .2s; backdrop-filter: blur(10px);
+  }
+  #mac-desktop #enter-btn:hover { background: rgba(255,255,255,.3); }
+  #mac-desktop #folder-container {
+    position: absolute; z-index: 100; display: flex; flex-direction: column;
+    align-items: center; cursor: pointer; transition: all .3s;
+  }
+  #mac-desktop #folder-container:hover { transform: scale(1.05); }
+  #mac-desktop .mac-folder {
+    width: 100px; height: 75px;
+    background: linear-gradient(180deg,#51a5f6,#297dec);
+    border-radius: 6px 8px 8px 8px; position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  }
+  #mac-desktop .mac-folder::before {
+    content:''; position: absolute; top: -10px; left: 0; width: 40px; height: 12px;
+    background: linear-gradient(180deg,#74c0fa,#51a5f6); border-radius: 6px 6px 0 0;
+  }
+  #mac-desktop .mac-folder::after {
+    content:''; position: absolute; bottom: 0; left: 0; width: 100%; height: 68px;
+    background: linear-gradient(180deg,#64b5f6,#3a8ff0); border-radius: 6px 8px 8px 8px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.4);
+  }
+  #mac-desktop .folder-label {
+    margin-top: 12px; font-size: 14px; font-weight: 500; color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.6);
+    background: rgba(0,0,0,.2); padding: 2px 8px; border-radius: 12px;
+  }
+  #mac-desktop #files-grid-container {
+    position: absolute; width: 80%; max-width: 800px;
+    display: flex; justify-content: center; align-items: center; z-index: 50;
+  }
+  #mac-desktop #files-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(100px,120px));
+    gap: 40px; width: 100%; justify-content: center;
+  }
+  #mac-desktop .file-card {
+    display: flex; flex-direction: column; align-items: center;
+    cursor: pointer; padding: 10px; border-radius: 8px; transition: background .3s;
+  }
+  #mac-desktop .file-card:hover { background: rgba(255,255,255,.2); }
+  #mac-desktop .file-icon {
+    width: 50px; height: 64px; background: #fff; border-radius: 4px;
+    position: relative; margin-bottom: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.15);
+    display: flex; justify-content: center; align-items: center;
+    overflow: hidden; padding: 4px;transition: transform .4s cubic-bezier(.16,1,.3,1), box-shadow .4s;
+  }
+  #mac-desktop .file-card:hover .file-icon {
+    transform: scale(1.25); box-shadow: 0 12px 24px rgba(0,0,0,.25);
+  }
+  #mac-desktop .file-icon::after {
+    content:''; position: absolute; top: 0; right: 0;
+    border-width: 0 16px 16px 0; border-style: solid;
+    border-color: transparent transparent rgba(0,0,0,.1) #fff;
+    border-radius: 0 4px 0 4px; z-index: 10;
+  }
+  #mac-desktop .icon-inner-text {
+    font-size: 9px; font-weight: 700; color: #555;
+    text-align: center; word-break: break-all; line-height: 1.2; z-index: 5; margin-top: 6px;
+  }
+  #mac-desktop .file-name {
+    font-size: 13px; font-weight: 500; color: #fff; text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5); word-break: break-word;
+    background: rgba(0,0,0,.2); padding: 2px 6px; border-radius: 10px;
+    transition: transform .4s cubic-bezier(.16,1,.3,1);
+  }
+  #mac-desktop .file-card:hover .file-name { transform: translateY(5px); }
+  #mac-desktop #finder-window {
+    position: absolute; width: 800px; height: 500px;
+    background: var(--content-bg); border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.3), 0 0 0 1px var(--border-color);
+    display: flex; overflow: hidden; z-index: 150;
+    left: calc(50% - 400px + 40px); top: calc(50% - 250px);transform: scale(0.45); opacity: 0;
+    transition: transform .55s cubic-bezier(.175,.885,.32,1.275),
+                opacity .35s ease, left .4s, top .4s, width .4s, height .4s,
+                border-radius .4s, box-shadow .4s;
+    will-change: transform, opacity;
+  }
+  #mac-desktop #finder-window.show { transform: scale(1); opacity: 1; }
+  #mac-desktop #finder-window.dragging-win { transition: none !important; }
+  #mac-desktop #finder-window.fullscreen {
+    left: 0!important; top: 0!important;
+    width: 100%!important; height: 100%!important; border-radius: 0!important;}
+  #mac-desktop #sidebar {
+    width: 220px; min-width: 220px; background: var(--sidebar-bg);
+    border-right: 1px solid var(--border-color);
+    backdrop-filter: blur(30px); display: flex; flex-direction: column;
+  }
+  #mac-desktop .sidebar-header { cursor: grab; display: flex; flex-direction: column; }
+  #mac-desktop .sidebar-header:active { cursor: grabbing; }
+  #mac-desktop .window-controls {
+    display: flex; gap: 8px; padding: 16px; flex-shrink: 0; cursor: default;
+  }
+  #mac-desktop .ctrl {
+    width: 12px; height: 12px; border-radius: 50%; cursor: pointer;
+    border: .5px solid rgba(0,0,0,.15); transition: opacity .15s;
+  }
+  #mac-desktop .ctrl:hover { opacity: .8; }
+  #mac-desktop .ctrl-close { background: #ff5f56; }
+  #mac-desktop .ctrl-mini { background: #ffbd2e; }
+  #mac-desktop .ctrl-max { background: #27c93f; }
+  #mac-desktop .sidebar-title {
+    padding: 0 16px 8px; font-size: 11px; font-weight: 600;
+    color: var(--text-secondary); pointer-events: none;
+  }
+  #mac-desktop #sidebar-list { overflow-y: auto; padding: 0 10px; flex: 1; }
+  #mac-desktop .sidebar-item {
+    display: flex; align-items: center; padding: 6px 10px; cursor: pointer;
+    border-radius: 6px; font-size: 13px; color: var(--text-primary);
+    transition: background .1s; margin-bottom: 2px;
+  }
+  #mac-desktop .sidebar-item:hover { background: rgba(0,0,0,.05); }
+  #mac-desktop .sidebar-item.active { background: var(--system-blue); color: #fff; }
+  #mac-desktop .finder-content {
+    flex: 1; display: flex; flex-direction: column; background: var(--content-bg); min-width: 0;
+  }
+  #mac-desktop .panel-header {
+    height: 50px; min-height: 50px; display: flex; align-items: center;
+    justify-content: center; border-bottom: 1px solid var(--border-color);
+    background: rgba(255,255,255,.9); position: relative; cursor: grab;
+  }
+  #mac-desktop .panel-header:active { cursor: grabbing; }
+  #mac-desktop .file-title {
+    font-size: 13px; font-weight: 600; color: var(--text-primary); pointer-events: none;
+  }
+  #mac-desktop .panel-body { flex: 1; padding: 30px 40px; overflow-y: auto; }
+  #mac-desktop .file-pre {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+    font-size: 14px; line-height: 1.6; color: var(--text-primary); white-space: pre-wrap;}
+  #mac-desktop #left-dock {
+    position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+    padding: 10px 8px; background: rgba(255,255,255,.22);
+    border: 1px solid rgba(255,255,255,.35);
+    backdrop-filter: blur(20px); border-radius: 16px;
+    box-shadow: 0 8px 28px rgba(0,0,0,.18);
+    display: flex; flex-direction: column; align-items: center; gap: 6px;
+    z-index: 300; transition: opacity .4s, transform .4s cubic-bezier(.16,1,.3,1);
+  }
+  #mac-desktop #left-dock.dock-hide {
+    opacity: 0; transform: translate(-40px,-50%) scale(.85); pointer-events: none;
+  }
+  #mac-desktop .dock-slot {
+    width: 48px; height: 58px; display: flex;
+    justify-content: center; align-items: center; flex-shrink: 0;
+  }
+  #mac-desktop .dock-item {
+    width: 44px; height: 54px; background: #fff; border-radius: 6px;
+    position: relative; cursor: pointer; box-shadow: 0 3px 8px rgba(0,0,0,.16);
+    transition: transform .35s cubic-bezier(.16,1,.3,1), box-shadow .35s;display: flex; justify-content: center; align-items: center; padding: 4px;
+  }
+  #mac-desktop .dock-item::after {
+    content:''; position: absolute; top: 0; right: 0;
+    border-width: 0 12px 12px 0; border-style: solid;
+    border-color: transparent transparent rgba(0,0,0,.08) #fff;
+    border-radius: 0 4px 0 4px; z-index: 10;
+  }
+  #mac-desktop .dock-item:hover {
+    transform: scale(1.35); box-shadow: 0 10px 22px rgba(0,0,0,.28); z-index: 10;
+  }
+  #mac-desktop .dock-item.dock-active {
+    box-shadow: 0 0 0 2px var(--system-blue), 0 4px 12px rgba(0,122,255,.25);
+  }
+  #mac-desktop .dock-item.dock-active:hover {
+    box-shadow: 0 0 0 2px var(--system-blue), 0 10px 22px rgba(0,122,255,.3);
+  }
+  #mac-desktop .dock-tooltip {
+    position: absolute; left: 60px; top: 50%; transform: translateY(-50%);
+    background: rgba(0,0,0,.78); color: #fff; padding: 5px 10px;
+    border-radius: 6px; font-size: 11px; white-space: nowrap;
+    opacity: 0; pointer-events: none; transition: opacity .25s;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2); font-weight: 500;
+  }
+  #mac-desktop .dock-item:hover .dock-tooltip { opacity: 1; }
+  #mac-desktop .dock-dot {
+    position: absolute; bottom: -7px; left: 50%; transform: translateX(-50%);
+    width: 5px; height: 5px; background: rgba(255,255,255,.9);
+    border-radius: 50%; box-shadow: 0 0 4px rgba(0,0,0,.3);
+  }
+  #mac-desktop .strip {
+    position: absolute; background: var(--content-bg); border-radius: 10px;
+    box-shadow: 0 12px 40px rgba(0,0,0,.25), 0 0 0 1px var(--border-color);
+    display: flex; flex-direction: column; overflow: hidden; z-index: 160;
+    transition: left .35s cubic-bezier(.2,.8,.2,1), top .35s cubic-bezier(.2,.8,.2,1),width .35s cubic-bezier(.2,.8,.2,1), height .35s cubic-bezier(.2,.8,.2,1),
+                opacity .3s, transform .3s;will-change: left, top, width, height;
+  }
+  #mac-desktop .strip.dragging {
+    transition: none !important; opacity: .88; z-index: 500;
+    box-shadow: 0 24px 60px rgba(0,0,0,.35), 0 0 0 1px var(--border-color);
+    cursor: grabbing;
+  }
+  #mac-desktop .strip.strip-enter { transform: scale(.9); opacity: 0; }
+  #mac-desktop .strip .strip-header {
+    height: 42px; min-height: 42px; display: flex; align-items: center;
+    padding: 0 14px; border-bottom: 1px solid var(--border-color);
+    background: rgba(246,246,246,.95); cursor: default;
+  }
+  #mac-desktop .strip .s-controls { display: flex; gap: 7px; flex-shrink: 0; }
+  #mac-desktop .strip .s-title {
+    flex: 1; text-align: center; font-size: 12px; font-weight: 600;
+    color: var(--text-primary); overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap; padding: 0 8px; cursor: grab;
+  }
+  #mac-desktop .strip .s-spacer { width: 55px; flex-shrink: 0; }
+  #mac-desktop .strip .strip-body { flex: 1; padding: 16px 18px; overflow-y: auto; }
+  #mac-desktop .strip .strip-body pre {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+    font-size: 13px; line-height: 1.55; color: var(--text-primary); white-space: pre-wrap;
+  }
+  #mac-desktop .snap-preview {
+    position: absolute; z-index: 450; pointer-events: none;
+    background: rgba(0,122,255,.12); border: 2.5px dashed rgba(0,122,255,.35);
+    border-radius: 12px; opacity: 0;
+    transition: opacity .2s, left .2s, top .2s, width .2s, height .2s;
+  }
+  #mac-desktop .snap-preview.visible { opacity: 1; }
+</style>
+
+<div id="mac-desktop">
+  <div id="intro-screen">
+    <div class="user-avatar"></div>
+    <h1 class="user-name">Guest User</h1>
+    <button id="enter-btn">Enter Blog</button>
+  </div><div id="folder-container" class="hidden">
+    <div class="mac-folder"></div>
+    <div class="folder-label">Documents</div>
+  </div>
+  <div id="files-grid-container" class="hidden">
+    <div id="files-grid"></div>
+  </div>
+  <div id="left-dock" class="dock-hide hidden"></div>
+  <div id="finder-window" class="hidden">
+    <div id="sidebar">
+      <div class="sidebar-header" id="sidebar-drag-handle">
+        <div class="window-controls">
+          <span class="ctrl ctrl-close" id="fw-close"></span>
+          <span class="ctrl ctrl-mini" id="fw-mini"></span>
+          <span class="ctrl ctrl-max" id="fw-max"></span>
+        </div>
+        <div class="sidebar-title">Documents</div>
+      </div>
+      <div id="sidebar-list"></div>
+    </div>
+    <div class="finder-content">
+      <div class="panel-header" id="finder-drag-handle">
+        <div class="file-title" id="fw-title"></div>
+      </div>
+      <div class="panel-body">
+        <pre class="file-pre" id="fw-content"></pre>
+      </div>
+    </div>
+  </div>
+  <div class="snap-preview" id="snap-preview"></div>
+</div>
+
+<script>
+(function () {
+  var FILES = [
+    { id: 1, name: 'apple.txt', content: 'Apple Ecosystem info:\n\nTesting A-Z sorting.' },
+    { id: 2, name: 'backup.txt', content: 'Backup logs for October.\nEverything is safe.' },
+    { id: 3, name: 'ideas.txt', content: 'App Ideas:\n- Enhanced Hover Effects!\n- Smoother Animations' },
+    { id: 4, name: 'notes.txt', content: 'Meeting Notes - Oct 27\n\n- Discussed new project architecture.' },
+    { id: 5, name: 'readme.txt', content: 'macOS Style Viewer\n\nWelcome to the clean macOS interface!' },
+    { id: 6, name: 'todo.txt', content: 'TODO List:\n1. Scale effect\n2. Smooth transition\n3. Enjoy!' },
+    { id: 7, name: 'z_index.txt', content: 'End of the alphabet test file.' }].sort(function (a, b) { return a.name.localeCompare(b.name); });
+
+  var fileMap = {};
+  for (var fi = 0; fi < FILES.length; fi++) {
+    fileMap[FILES[fi].id] = FILES[fi];
+  }
+
+  var desktop = document.getElementById('mac-desktop');
+  var introScr = document.getElementById('intro-screen');
+  var enterBtn = document.getElementById('enter-btn');
+  var folderCtr = document.getElementById('folder-container');
+  var gridCtr = document.getElementById('files-grid-container');
+  var grid = document.getElementById('files-grid');
+  var dock = document.getElementById('left-dock');
+  var finder = document.getElementById('finder-window');
+  var finderDH = document.getElementById('finder-drag-handle');
+  var sidebarDH = document.getElementById('sidebar-drag-handle');
+  var sideList = document.getElementById('sidebar-list');
+  var fwTitle = document.getElementById('fw-title');
+  var fwContent = document.getElementById('fw-content');
+  var snapPrev = document.getElementById('snap-preview');
+
+  var mode = 'login';
+  var finderFileId = null;
+  var finderIsFullscreen = false;
+  var strips = new Map();
+  var zones = [null, null, null];
+
+  function deskRect() { return desktop.getBoundingClientRect(); }
+
+  
+
+  function getZoneRects() {
+    var rect = deskRect();
+    var dockWidth = 76;
+    var padding = 6;
+    var availableWidth = rect.width - dockWidth;
+    var zoneWidth = availableWidth / 3;
+    var result = [];
+    for (var i = 0; i < 3; i++) {
+      result.push({
+        left: dockWidth + i * zoneWidth + padding,
+        top: padding,
+        width: zoneWidth - padding * 2,
+        height: rect.height - padding * 2,
+        hitLeft: rect.left + dockWidth + i * zoneWidth,
+        hitRight: rect.left + dockWidth + (i + 1) * zoneWidth,
+        hitTop: rect.top,
+        hitBottom: rect.bottom
+      });
+    }
+    return result;
+  }
+
+  function hitZone(cx, cy) {
+    var zrs = getZoneRects();
+    for (var i = 0; i < 3; i++) {
+      var z = zrs[i];
+      if (cx >= z.hitLeft && cx < z.hitRight && cy >= z.hitTop && cy < z.hitBottom) return i;
+    }
+    return -1;
+  }
+
+  function findEmptyZone() {
+    for (var i = 0; i < 3; i++) {
+      if (zones[i] === null) return i;
+    }
+    return -1;
+  }
+
+  function showSnap(zi) {
+    if (zi< 0) { snapPrev.classList.remove('visible'); return; }
+    var z = getZoneRects()[zi];
+    snapPrev.style.left = z.left + 'px';
+    snapPrev.style.top = z.top + 'px';
+    snapPrev.style.width = z.width + 'px';
+    snapPrev.style.height = z.height + 'px';
+    snapPrev.classList.add('visible');
+  }
+
+  function hideSnap() { snapPrev.classList.remove('visible'); }
+
+  function buildDock() {
+    dock.innerHTML = '';
+    for (var i = 0; i < FILES.length; i++) {
+      var f = FILES[i];
+      var slot = document.createElement('div');
+      slot.className = 'dock-slot';
+      var item = document.createElement('div');
+      item.className = 'dock-item';
+      var active = strips.has(f.id) || (mode === 'finder' && finderFileId === f.id);
+      if (active) item.classList.add('dock-active');
+      item.innerHTML = '<span class="icon-inner-text" style="font-size:8px">' + f.name + '</span><div class="dock-tooltip">' + f.name + '</div>';
+      if (active) item.innerHTML += '<div class="dock-dot"></div>';
+      (function (file) {
+        item.addEventListener('click', function () { onDockClick(file); });
+      })(f);
+      slot.appendChild(item);
+      dock.appendChild(slot);
+    }
+  }
+
+  function showDock() {
+    dock.classList.remove('hidden');
+    requestAnimationFrame(function () { dock.classList.remove('dock-hide'); });
+  }
+
+  function hideDock() {
+    dock.classList.add('dock-hide');
+    setTimeout(function () { dock.classList.add('hidden'); }, 400);
+  }
+
+  function onDockClick(file) {
+    if (mode === 'finder') {
+      finderFileId = file.id;
+      showFinderFile(file);
+      refreshSidebar();
+      buildDock();
+      return;
+    }
+    if (strips.has(file.id)) {
+      var s = strips.get(file.id);
+      s.el.style.transition = 'none';
+      s.el.style.boxShadow = '0 0 0 3px var(--system-blue), 0 12px 40px rgba(0,0,0,.25)';
+      setTimeout(function () { s.el.style.transition = ''; s.el.style.boxShadow = ''; }, 400);
+      return;
+    }
+    var zi = findEmptyZone();
+    if (zi < 0) return;
+    createStrip(file, zi);
+    buildDock();
+  }
+
+  enterBtn.addEventListener('click', function () {
+    introScr.style.opacity = '0';
+    setTimeout(function () {
+      introScr.classList.add('hidden');
+      mode = 'folder';
+      folderCtr.classList.remove('hidden');
+      folderCtr.style.opacity = '0';
+      folderCtr.style.transform = 'scale(.8)';
+      requestAnimationFrame(function () {
+        folderCtr.style.transition = 'all .5s cubic-bezier(.175,.885,.32,1.275)';
+        folderCtr.style.opacity = '1';
+        folderCtr.style.transform = 'scale(1)';
+      });
+    }, 500);
+  });
+
+  folderCtr.addEventListener('click', function () {
+    folderCtr.style.opacity = '0';
+    folderCtr.style.transform = 'scale(1.2)';
+    setTimeout(function () {
+      folderCtr.classList.add('hidden');
+      mode = 'grid';
+      gridCtr.classList.remove('hidden');
+      renderGrid();
+    }, 300);
+  });
+
+  function renderGrid() {
+    grid.innerHTML = '';
+    for (var i = 0; i < FILES.length; i++) {
+      (function (f, idx) {
+        var c = document.createElement('div');
+        c.className = 'file-card';
+        c.innerHTML = '<div class="file-icon"><span class="icon-inner-text">' + f.name + '</span></div><div class="file-name">' + f.name + '</div>';
+        c.style.cssText = 'opacity:0;transform:translateY(20px);transition:all .4s ease;transition-delay:' + (idx * 40) + 'ms';
+        grid.appendChild(c);requestAnimationFrame(function () {
+          c.style.opacity = '1';
+          c.style.transform = 'translateY(0)';
+        });
+        c.addEventListener('click', function () { openFinder(f); });
+      })(FILES[i], i);
+    }
+  }
+
+  function finderToCenter() {
+    finderIsFullscreen = false;
+    finder.classList.remove('fullscreen', 'dragging-win');
+    finder.style.left = '';
+    finder.style.top = '';
+    finder.style.width = '';
+    finder.style.height = '';
+  }
+
+  function openFinder(file) {
+    mode = 'finder';
+    finderFileId = file.id;
+    gridCtr.classList.add('hidden');
+    strips.forEach(function (val, id) { removeStrip(id, true); });
+    showDock();
+    buildDock();
+    finderToCenter();
+    finder.classList.remove('hidden', 'show');
+    void finder.offsetWidth;
+    requestAnimationFrame(function () { finder.classList.add('show'); });
+    buildSidebar();
+    showFinderFile(file);
+    refreshSidebar();
+  }
+
+  function buildSidebar() {
+    sideList.innerHTML = '';
+    for (var i = 0; i < FILES.length; i++) {
+      (function (f) {
+        var si = document.createElement('div');
+        si.className = 'sidebar-item';
+        si.dataset.fid = f.id;
+        si.innerHTML = '📄&nbsp;<span>' + f.name + '</span>';
+        si.addEventListener('click', function () {
+          finderFileId = f.id;
+          showFinderFile(f);
+          refreshSidebar();
+          buildDock();
+        });
+        sideList.appendChild(si);
+      })(FILES[i]);
+    }
+  }
+
+  function refreshSidebar() {
+    var items = sideList.querySelectorAll('.sidebar-item');
+    for (var i = 0; i < items.length; i++) {
+      items[i].classList.toggle('active', Number(items[i].dataset.fid) === finderFileId);
+    }
+  }
+
+  function showFinderFile(f) {
+    fwTitle.textContent = f.name;
+    fwContent.textContent = f.content;
+  }
+
+   
+  (function () {
+    var dragging = false, sx, sy, ol, ot;
+    function onDown(e) {
+      if (e.target.closest('.window-controls')) return;
+      if (finderIsFullscreen) return;
+      e.preventDefault();
+      dragging = true;
+      var r = finder.getBoundingClientRect();
+      var dr = deskRect();
+      ol = r.left - dr.left;
+      ot = r.top - dr.top;
+      sx = e.clientX;
+      sy = e.clientY;
+      finder.classList.add('dragging-win');
+      finder.style.left = ol + 'px';
+      finder.style.top = ot + 'px';
+    }
+    finderDH.addEventListener('mousedown', onDown);
+    sidebarDH.addEventListener('mousedown', onDown);
+    document.addEventListener('mousemove', function (e) {
+      if (!dragging) return;
+      finder.style.left = (ol + e.clientX - sx) + 'px';
+      finder.style.top = (ot + e.clientY - sy) + 'px';
+    });
+    document.addEventListener('mouseup', function () {
+      if (!dragging) return;
+      dragging = false;
+      finder.classList.remove('dragging-win');
+    });
+  })();
+
+   
+  document.getElementById('fw-close').addEventListener('click', goToFolder);
+
+   
+  document.getElementById('fw-mini').addEventListener('click', finderToStripMode);
+
+   
+  document.getElementById('fw-max').addEventListener('click', function () {
+    if (finderIsFullscreen) {
+      finderToCenter();
+      finder.classList.add('show');
+    } else {
+      finderIsFullscreen = true;
+      finder.classList.remove('dragging-win');
+      finder.style.left = '0';
+      finder.style.top = '0';
+      finder.classList.add('fullscreen');
+    }
+  });
+
+  function goToFolder() {
+    finder.classList.remove('show', 'fullscreen');
+    finderIsFullscreen = false;
+    strips.forEach(function (val, id) { removeStrip(id, true); });
+    hideDock();
+    mode = 'folder';
+    setTimeout(function () {
+      finder.classList.add('hidden');
+      finderToCenter();
+      gridCtr.classList.add('hidden');
+      folderCtr.classList.remove('hidden');
+      folderCtr.style.opacity = '0';
+      folderCtr.style.transform = 'scale(.8)';
+      requestAnimationFrame(function () {
+        folderCtr.style.transition = 'all .5s cubic-bezier(.175,.885,.32,1.275)';
+        folderCtr.style.opacity = '1';
+        folderCtr.style.transform = 'scale(1)';
+      });
+    }, 350);
+  }
+
+  function finderToStripMode() {
+    var file = fileMap[finderFileId];
+    if (!file) return;
+    finder.classList.remove('show', 'fullscreen');
+    finderIsFullscreen = false;
+    setTimeout(function () {
+      finder.classList.add('hidden');
+      finderToCenter();
+      mode = 'strips';
+      showDock();
+      var zi = findEmptyZone();
+      if (zi >= 0) createStrip(file, zi);
+      buildDock();
+    }, 350);
+  }
+
+  function createStrip(file, zoneIdx) {
+    if (strips.has(file.id)) return;
+    var zr = getZoneRects()[zoneIdx];
+    var el = document.createElement('div');
+    el.className = 'strip strip-enter';
+    el.dataset.fid = file.id;
+    el.innerHTML =
+      '<div class="strip-header">' +
+        '<div class="s-controls">' +
+          '<span class="ctrl ctrl-close"></span>' +
+          '<span class="ctrl ctrl-mini"></span>' +
+          '<span class="ctrl ctrl-max"></span>' +
+        '</div>' +
+        '<span class="s-title">' + file.name + '</span>' +
+        '<span class="s-spacer"></span>' +
+      '</div>' +
+      '<div class="strip-body"><pre>' + file.content + '</pre></div>';
+    el.style.left = zr.left + 'px';
+    el.style.top = zr.top + 'px';
+    el.style.width = zr.width + 'px';
+    el.style.height = zr.height + 'px';
+    desktop.appendChild(el);
+    zones[zoneIdx] = file.id;
+    strips.set(file.id, { el: el, zoneIdx: zoneIdx });
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        el.classList.remove('strip-enter');
+      });
+    });
+    el.querySelector('.ctrl-close').addEventListener('click', function (e) {
+      e.stopPropagation();
+      removeStrip(file.id);});
+    el.querySelector('.ctrl-mini').addEventListener('click', function (e) {
+      e.stopPropagation();
+      stripToFinder(file);
+    });
+    el.querySelector('.ctrl-max').addEventListener('click', function (e) {
+      e.stopPropagation();
+      stripToFinder(file);
+    });initStripDrag(el, file.id);
+  }
+
+  function removeStrip(fid, silent) {
+    var s = strips.get(fid);
+    if (!s) return;
+    zones[s.zoneIdx] = null;
+    strips.delete(fid);
+    if (!silent) {
+      s.el.style.transform = 'scale(.9)';
+      s.el.style.opacity = '0';
+      setTimeout(function () { s.el.remove(); }, 300);
+      buildDock();
+      if (strips.size === 0) {
+        mode = 'grid';
+        hideDock();
+        setTimeout(function () {
+          gridCtr.classList.remove('hidden');
+          renderGrid();
+        }, 300);
+      }
+    } else {
+      s.el.remove();
+    }
+  }
+
+  function stripToFinder(file) {
+    strips.forEach(function (val, id) { removeStrip(id, true); });
+    zones[0] = null;
+    zones[1] = null;
+    zones[2] = null;
+    openFinder(file);
+  }
+
+  function initStripDrag(el, fid) {
+    var handle = el.querySelector('.s-title');
+    var dragging = false, startX, startY, origLeft, origTop, origZone;
+
+    handle.addEventListener('mousedown', function (e) {
+      e.preventDefault();
+      dragging = true;
+      var s = strips.get(fid);
+      origZone = s.zoneIdx;
+      origLeft = parseFloat(el.style.left);
+      origTop = parseFloat(el.style.top);
+      startX = e.clientX;
+      startY = e.clientY;
+      el.classList.add('dragging');
+      zones[origZone] = null;
+    });
+
+    document.addEventListener('mousemove', function (e) {
+      if (!dragging) return;
+      el.style.left = (origLeft + e.clientX - startX) + 'px';
+      el.style.top = (origTop + e.clientY - startY) + 'px';var zi = hitZone(e.clientX, e.clientY);
+      showSnap(zi >= 0 && zones[zi] === null ? zi : -1);
+    });
+
+    document.addEventListener('mouseup', function (e) {
+      if (!dragging) return;
+      dragging = false;
+      el.classList.remove('dragging');
+      hideSnap();
+      var zi = hitZone(e.clientX, e.clientY);
+      var targetZone;
+      if (zi >= 0&& zones[zi] === null) {
+        targetZone = zi;
+      } else if (zi >= 0 && zones[zi] !== null && zones[zi] !== fid) {
+        var otherFid = zones[zi];
+        var otherS = strips.get(otherFid);
+        var origZR = getZoneRects()[origZone];
+        otherS.zoneIdx = origZone;
+        zones[origZone] = otherFid;
+        otherS.el.style.left = origZR.left + 'px';
+        otherS.el.style.top = origZR.top + 'px';
+        otherS.el.style.width = origZR.width + 'px';
+        otherS.el.style.height = origZR.height + 'px';
+        targetZone = zi;
+      } else {
+        targetZone = origZone;
+      }
+      var zr = getZoneRects()[targetZone];
+      zones[targetZone] = fid;
+      strips.get(fid).zoneIdx = targetZone;
+      el.style.left = zr.left + 'px';
+      el.style.top = zr.top + 'px';
+      el.style.width = zr.width + 'px';
+      el.style.height = zr.height + 'px';});
+  }
+
+  window.addEventListener('resize', function () {
+    strips.forEach(function (s) {
+      var zr = getZoneRects()[s.zoneIdx];
+      s.el.style.left = zr.left + 'px';
+      s.el.style.top = zr.top + 'px';
+      s.el.style.width = zr.width + 'px';
+      s.el.style.height = zr.height + 'px';
+    });
+  });
+})();
+</script>
+
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">LUAN的博客</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+<div id="gradient-bg"></div>
+
+<script>
+(function() {
+    const container = document.getElementById('gradient-bg');
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(
+        35, window.innerWidth / window.innerHeight, 0.1, 100
+    );
+    camera.position.set(0, 0.5, 0.4);
+    camera.lookAt(0, 0, 0);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    container.appendChild(renderer.domElement);
+
+    const vertexShader = `
+        uniform vec2 uFrequency;
+        uniform float uTime;
+        uniform float uAmount;
+        uniform float uSpeed;
+        uniform vec3 uColor[5];
+        varying vec2 vUv;
+        varying vec3 vColor;
+
+        vec4 permute(vec4 x){return mod(((x*34.0)+1.0)*x, 289.0);}
+        vec4 taylorInvSqrt(vec4 r){return 1.79284291400159 - 0.85373472095314 * r;}
+
+        float snoise(vec3 v){
+            const vec2 C = vec2(1.0/6.0, 1.0/3.0);
+            const vec4 D = vec4(0.0, 0.5, 1.0, 2.0);
+            vec3 i = floor(v + dot(v, C.yyy));
+            vec3 x0 = v - i + dot(i, C.xxx);
+            vec3 g = step(x0.yzx, x0.xyz);
+            vec3 l = 1.0 - g;
+            vec3 i1 = min(g.xyz, l.zxy);
+            vec3 i2 = max(g.xyz, l.zxy);
+            vec3 x1 = x0 - i1 + C.xxx;
+            vec3 x2 = x0 - i2 + 2.0* C.xxx;
+            vec3 x3 = x0 - 1.0 + 3.0 * C.xxx;
+            i = mod(i, 289.0);
+            vec4 p = permute(permute(permute(
+                i.z + vec4(0.0, i1.z, i2.z, 1.0))
+                + i.y + vec4(0.0, i1.y, i2.y, 1.0))
+                + i.x + vec4(0.0, i1.x, i2.x, 1.0));
+            float n_ = 1.0/7.0;
+            vec3 ns = n_ * D.wyz - D.xzx;
+            vec4 j = p -49.0 * floor(p * ns.z * ns.z);
+            vec4 x_ = floor(j * ns.z);
+            vec4 y_ = floor(j - 7.0 * x_);
+            vec4 x = x_ * ns.x + ns.yyyy;
+            vec4 y = y_ * ns.x + ns.yyyy;
+            vec4 h = 1.0 - abs(x) - abs(y);
+            vec4 b0 = vec4(x.xy, y.xy);
+            vec4 b1 = vec4(x.zw, y.zw);
+            vec4 s0 = floor(b0) * 2.0 + 1.0;
+            vec4 s1 = floor(b1) * 2.0 + 1.0;
+            vec4 sh = -step(h, vec4(0.0));
+            vec4 a0 = b0.xzyw + s0.xzyw * sh.xxyy;
+            vec4 a1 = b1.xzyw + s1.xzyw * sh.zzww;
+            vec3 p0 = vec3(a0.xy, h.x);
+            vec3 p1 = vec3(a0.zw, h.y);
+            vec3 p2 = vec3(a1.xy, h.z);
+            vec3 p3 = vec3(a1.zw, h.w);
+            vec4 norm = taylorInvSqrt(vec4(dot(p0,p0), dot(p1,p1), dot(p2,p2), dot(p3,p3)));
+            p0 *= norm.x; p1 *= norm.y; p2 *= norm.z; p3 *= norm.w;
+            vec4 m = max(0.6 - vec4(dot(x0,x0), dot(x1,x1), dot(x2,x2), dot(x3,x3)), 0.0);
+            m = m * m;
+            return 42.0 * dot(m*m, vec4(dot(p0,x0), dot(p1,x1), dot(p2,x2), dot(p3,x3)));
+        }
+
+        void main() {
+            vec4 modelPosition = modelMatrix * vec4(position, 1.0);
+            vec2 noiseCoord = uv * vec2(uFrequency.x, uFrequency.y);
+            float noise = snoise(vec3(
+                noiseCoord.x + uTime * 0.02,
+                noiseCoord.y,
+                uTime * uSpeed
+            ));
+            modelPosition.y += noise * uAmount;
+
+            vColor = uColor[4];
+            for(int i = 0; i < 4; i++){
+                float noiseFlow = 0.0002 + float(i) * 0.05;
+                float noiseSpeed = 0.0001 + float(i) * 0.03;
+                float noiseSeed = 1.0 + float(i) * 10.0;
+                float noiseCeiling = 0.6 + float(i) * 0.08;
+                float n = smoothstep(0.1, noiseCeiling, snoise(vec3(
+                    noiseCoord.x *0.3 + uTime * noiseFlow,
+                    noiseCoord.y * 0.6,
+                    uTime * noiseSpeed + noiseSeed
+                )));
+                vColor = mix(vColor, uColor[i], n);
+            }
+
+            gl_Position = projectionMatrix * viewMatrix * modelPosition;
+            vUv = uv;
+        }
+    `;
+
+    const fragmentShader = `
+        precision mediump float;
+        varying vec3 vColor;
+        void main(){
+            gl_FragColor = vec4(vColor, 1.0);
+        }
+    `;
+
+    
+    const uniforms = {
+        uTime:{ value: 0 },
+        uAmount:    { value: 0.06 },
+        uSpeed:     { value: 0.02 },
+        uFrequency: { value: new THREE.Vector2(3, 6) },
+        uColor: {
+            value: [
+                new THREE.Color("#4ACF61"),
+                new THREE.Color("#D0D3D5"),
+                new THREE.Color("#023047"),
+                new THREE.Color("#73DB67"),
+                new THREE.Color("#5C5656")
+            ]
+        }
+    };
+
+    const geometry = new THREE.PlaneGeometry(1.5, 1.5, 200, 200);
+    const material = new THREE.ShaderMaterial({
+        vertexShader,
+        fragmentShader,
+        uniforms,
+        wireframe: false
+    });
+    const mesh = new THREE.Mesh(geometry, material);
+    mesh.rotation.x = -Math.PI / 2;
+    scene.add(mesh);
+
+    const clock = new THREE.Clock();
+    function animate() {
+        requestAnimationFrame(animate);
+        uniforms.uTime.value = clock.getElapsedTime();
+        renderer.render(scene, camera);
+    }
+    animate();
+
+    window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+})();
+</script>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
